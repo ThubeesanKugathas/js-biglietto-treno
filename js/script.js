@@ -9,8 +9,6 @@ const birthYear = parseInt(prompt('In che anno è nato?'));
 // calcolo prezzo puro senza sconti
 let price = distance * 0.21;
 
-console.log(price);
-
 // calcolo età
 let now = new Date();
 let date = now.getFullYear()+'-'+(now.getMonth()+1)+'-'+now.getDate();

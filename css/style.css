@@ -1,12 +1,19 @@
 .ms_ticket-form {
     width: 600px;
-    background-color: #888;
+    background-color: #ccc;
     margin: 20px auto;
 }
 
 header {
     height: 30px;
     background-color: blue;
+    border: 1px solid #000;
+
+}
+
+
+main .ms_main-part {
+    width: 500px;
 }
 
 main .ms_main-part,
@@ -14,21 +21,22 @@ main .ms_sidebar {
     border: 1px solid #000;
 }
 
-main .ms_main-part {
-    width: 500px
-}
-
 .ms_main-part #price::after {
     content: "\f153";
     font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-weight: 800;
+    margin-left: 5px;
+    font-size: 12px;
 }
 
 main .ms_sidebar {
     width: 100px;
 }
 
+
 footer {
     height: 20px;
     background-color: brown;
+    border: 1px solid #000;
+
 }
