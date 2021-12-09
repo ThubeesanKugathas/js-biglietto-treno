@@ -1,3 +1,12 @@
+#button {
+    width: 100px;
+    background-color: chocolate;
+    margin: 15px auto;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
 .ms_ticket-form {
     width: 600px;
     background-color: #ccc;
