@@ -1,3 +1,7 @@
+// costanti
+const costPerKm = 0.21;
+
+
 // creazione prezzo del biglietto treno 
 // richiesta dei km che si vogliono percorrere
 const distance = parseInt(prompt('Quanti KM vuole percorrere?'));
@@ -7,7 +11,7 @@ distanceElement.innerHTML = `${distance} KM`;
 const birthYear = parseInt(prompt('In che anno è nato?'));
 
 // calcolo prezzo puro senza sconti
-let price = distance * 0.21;
+let price = distance * costPerKm;
 
 // calcolo età
 let now = new Date();
